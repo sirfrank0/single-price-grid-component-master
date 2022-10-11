@@ -58,10 +58,12 @@ main {
         color: var(--Cyan);
         font-weight: 700;
         font-size: 1.25rem;
+        font-weight: 700;
     }
 
     .join-p1{
         color: #c9de5a ;
+        font-weight: 700;
         
     }
 
@@ -69,7 +71,7 @@ main {
         color: #c4c4cb;
         font-size: 14px;
         line-height: 24px;
-        font-weight: 600;
+        font-weight: 400;
     }
   
   .subscription {
