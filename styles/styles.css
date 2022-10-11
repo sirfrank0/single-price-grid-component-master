@@ -16,5 +16,80 @@
 }
 
 body{
-    background-color: var(--Grayish-Blue);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light-Gray);
 }
+
+main {  
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "join"
+      "subscription"
+      "why";
+
+     max-width: 18.875rem; 
+     filter: drop-shadow(0em 0.15em 0.15em rgba(0, 0, 0, 0.15))
+     
+     
+  }
+  
+  .join { 
+    grid-area: join; 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    }
+
+    h1{
+        color: var(--Cyan);
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+
+    .join-p1{
+        color: #c9de5a ;
+        
+    }
+
+    .join-p2{
+        color: #c4c4cb;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+  
+  .subscription {
+     grid-area: subscription; 
+     background-color: var(--Cyan);
+    }
+  
+  .why {
+     grid-area: why;
+     background-color:  #a2dcda ;
+     border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+     }
+  
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){}
