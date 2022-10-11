@@ -42,8 +42,8 @@ main {
     flex-direction: column;
     gap: 1.25rem;
     padding: 20px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
     }
 
         h1{
@@ -60,7 +60,7 @@ main {
         }
 
         .join-p2{
-            color: #c4c4cb;
+            color: #b2b7bb;
             font-size: 14px;
             line-height: 24px;
             font-weight: 400;
@@ -68,15 +68,52 @@ main {
   
   .subscription {
      
-     background-color: var(--Cyan);
-     
+    background-color: var(--Cyan);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 20px;
+    color: white;
+    }
+    
+    h2{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .price{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .subscription-p1{
+        font-size: 2rem;
+    }
+    .subscription-p2{
+        color: #8ae2e6;
+        font-weight: 400;
+    }
+    .subscription-p3{
+        font-weight: 400;
+        color: #c3f9f9;
+        
+    }
+    button {
+        padding: 1rem;
+        font-size: 1rem;
+        color: white;
+        background-color: var(--Bright-Yellow);
+        border: none;
+        border-radius: 0.25rem;
+        filter: drop-shadow(0em 0.15em 0.15em rgba(0, 0, 0, 0.25))
     }
   
   .why {
     
      background-color:  #a2dcda ;
-     border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+     border-bottom-left-radius: 0.75rem;
+     border-bottom-right-radius: 0.75rem;
      }
   
 
