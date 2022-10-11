@@ -46,29 +46,30 @@ main {
     border-top-right-radius: 12px;
     }
 
-    h1{
-        color: var(--Cyan);
-        font-weight: 700;
-        font-size: 1.25rem;
-        font-weight: 700;
-    }
+        h1{
+            color: var(--Cyan);
+            font-weight: 700;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
 
-    .join-p1{
-        color: #c9de5a ;
-        font-weight: 700;
-        
-    }
+        .join-p1{
+            color: #c9de5a ;
+            font-weight: 700;
+            
+        }
 
-    .join-p2{
-        color: #c4c4cb;
-        font-size: 14px;
-        line-height: 24px;
-        font-weight: 400;
-    }
+        .join-p2{
+            color: #c4c4cb;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+        }
   
   .subscription {
      
      background-color: var(--Cyan);
+     
     }
   
   .why {
