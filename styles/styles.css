@@ -106,7 +106,9 @@ main {
         background-color: var(--Bright-Yellow);
         border: none;
         border-radius: 0.25rem;
-        filter: drop-shadow(0em 0.15em 0.15em rgba(0, 0, 0, 0.25))
+        filter: drop-shadow(0em 0.15em 0.15em rgba(0, 0, 0, 0.25));
+        font-weight: 400;
+        
     }
   
   .why {
