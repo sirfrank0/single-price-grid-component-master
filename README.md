@@ -4,4 +4,4 @@
 
 ## Welcome! 👋
 
-This is my solution to this Frontend Mentor challenge using Responsive Design, CSS Grid and Mobile First.
+This is my solution to this Frontend Mentor challenge using Responsive Design, CSS Grid, CSS Flexbox and Mobile First.
