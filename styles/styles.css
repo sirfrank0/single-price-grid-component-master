@@ -113,12 +113,21 @@ main {
   
   .why {
     
-     background-color:  #a2dcda ;
+     background-color:  #49bebd ;
      border-bottom-left-radius: 0.75rem;
      border-bottom-right-radius: 0.75rem;
+     padding: 1.25rem;
+     }
+
+     h3{
+        margin-bottom: 1rem;
+        color: #f4f9fb;
      }
   
-
+     ul{
+        list-style: none;
+        color: #b8f1f2;
+     }
 
 
 
