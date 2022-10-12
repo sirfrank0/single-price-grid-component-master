@@ -135,6 +135,7 @@ main {
      footer{
         color: var(--Cyan);
         font-weight: 700;
+        text-align: center;
      }
 
      a{
