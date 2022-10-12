@@ -163,4 +163,12 @@ main {
         }
         
         .join { grid-area: 1 / 1 / 2 / 3; }
+
+        .why{
+            border-bottom-left-radius: 0;
+        }
+
+        .subscription{
+            border-bottom-left-radius: 0.75rem;
+        }
 }
