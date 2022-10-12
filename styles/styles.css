@@ -138,7 +138,8 @@ main {
      }
 
      a{
-        text-decoration-style: none;
+        text-decoration: none;
+        color: var(--Cyan);
      }
 
 
